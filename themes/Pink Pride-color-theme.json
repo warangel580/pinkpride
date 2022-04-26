@@ -138,15 +138,6 @@
 			}
 		},
 		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#EEFFFF" //
-			}
-		},
-		{
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
@@ -157,13 +148,20 @@
 			}
 		},
 		{
+			"name": "Escape Characters",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#ee5f94"
+			},
+		},
+		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
-				"constant.character",
-				"constant.escape",
 				"keyword.other.unit",
 				"keyword.other"
 			],
@@ -240,6 +238,25 @@
 			}
 		},
 		{
+			"name": "Object property",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#dedac9"
+			}
+		},
+		{
+			"name": "Object property",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#edece8"
+			}
+		},
+		// f4e9e9
+		{
 			"name": "Sub-methods",
 			"scope": [
 				"entity.name.module.js",
@@ -276,7 +293,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#feafc7",
+				"foreground": "#f4e9e9", // "#feafc7",
 			}
 		},
 		{
@@ -346,15 +363,6 @@
 			}
 		},
 		{
-			"name": "Escape Characters",
-			"scope": [
-				"constant.character.escape"
-			],
-			"settings": {
-				"foreground": "#89DDFF"
-			}
-		},
-		{
 			"name": "URL",
 			"scope": [
 				"*url*",
@@ -392,7 +400,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#eeffff"
+				"foreground": "#f4e9e9"
 			}
 		},
 		{
@@ -401,7 +409,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#e4c385"
+				"foreground": "#dedac9"
 			}
 		},
 		{

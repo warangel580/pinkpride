@@ -1,4 +1,4 @@
-# pinkpride theme
+# punkride theme
 
 Dark VSCode syntax theme based on pink, red and cyan.
 
